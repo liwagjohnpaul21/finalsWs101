@@ -1,0 +1,56 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff;
+    color: #222;
+}
+
+.navbar {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url('gruppic.jpg') center/cover no-repeat;
+    color: white;
+    padding: 120px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.section-title {
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.card {
+    transition: 0.3s;
+    border-radius: 12px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+footer {
+    background: #111;
+    color: white;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.price {
+    font-weight: bold;
+    color: #e91e63;
+}
